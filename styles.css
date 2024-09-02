@@ -1,0 +1,27 @@
+body { background-image: url("bluetriangle.jpg"); 
+       background-repeat: repeat-y; 
+       background-position: center; }
+  
+
+nav { float: left; width: 150px; }
+main { margin-left: 165px; }
+footer {margin-left: 165px; }
+
+ul {list-style-image: url("switchicon.png"); }
+
+nav a:hover { text-decoration: none;
+              color: #348ca6;
+              background-color: #00d4ff; }
+
+
+img { position: relative;
+      left: 250px;
+      bottom: 20px; }
+
+tr:nth-of-type(odd) {background-color: #2ec4c0; }
+
+
+td a:hover {background-color: #00d4ff;
+		color: #790968; }
+
+

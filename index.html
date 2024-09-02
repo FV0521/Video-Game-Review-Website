@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Welcome to Federico's Video Game Review</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.png" type="image/ico">
+
+<script type="text/javascript">
+function daysCountdown()
+{
+var todayIs=new Date();
+var countdownDate=new Date("June 12, 2024");
+var daysSubtracted=countdownDate-todayIs;
+var daysUntil=Math.ceil(daysSubtracted/(1000*60*60*24)); 
+document.write("There are " + daysUntil + " days until the next Nintendo Direct on June 12th, 2024." );
+}
+</script>
+
+<script type="text/javascript">
+function addQuote()
+{
+var quotes=new Array();
+quotes[0]="Check out our gallery section of game covers.";
+quotes[1]="Feel free to ask us any questions in the Contact Us page.";
+quotes[2]="We publish 3 articles on average per week to keep our readers interested.";
+quotes[3]="Subscribe to us today to recieve perks from the website.";
+quotes[4]="Look up our links to other review sites in Links.";
+
+randomNum=Math.floor(Math.random()*5);
+document.write(quotes[randomNum]);
+}
+
+</script>
+
+
+<script type="text/javascript">
+
+var firstName=prompt("Enter Your First Name");
+var lastName=prompt("Enter Your Last Name");
+alert("Welcome to the main page, " + firstName + " " + lastName);
+
+</script>
+
+
+
+</head>
+
+<body>
+
+<header> <h1 style="color:blue;font-family: Arial, Tahoma, sans-serif; text-shadow: 4px 2px 5px #666;">Welcome to the Video Game Review Site</h1>
+</header>
+
+<nav>
+<ul>     
+     <li><a style="font-weight: bold;" href="index.html">Home</a></li>
+     <li><a style="font-weight: bold;" href="resources.html">Links</a></li>
+     <li><a style="font-weight: bold;" href="gallery.html">Images</a></li>
+     <li><a style="font-weight: bold;" href="staffdirectory.html">Contact Us</a></li>
+     <li><a style="font-weight: bold;" href="customerform.html">Subscription</a></li>
+</ul>
+</nav>
+
+
+<main>
+
+<h2 style="background-color: navy; color: white; font-family: Arial, Tahoma, sans-serif">
+<script type="text/javascript">
+daysCountdown();
+</script>
+</h2>
+
+
+<h2 style="color:navy;font-family: Arial, Tahoma, sans-serif"> About the Video Game Review Website </h2>             
+<p> Here in the website, we talk about all sorts of things related to video games: reviews on game titles, walkthrough guides, discussion fourms, and latest news in the gaming industry. </p>   
+<p> Our team is dedicated to provide you the best and trustworthy source of information from the world of video games. We make sure to make it a number one priority to readers to
+access the right information.</p> 
+
+
+<h2 style="color: navy;font-family: Arial, Tahoma, sans-serif"> What's Included? </h2>
+
+<h3 style="font-weight: bold; font-family: Arial, Tahoma, sans-serif">
+<script type="text/javascript">
+addQuote();
+</script>
+</h3>
+
+<dl>
+      <dt>Console Reviews</dt>
+          <dd> We talk about a variety of video game consoles from the Nintendo Switch, PS4, PS5, Xbox One, and more. </dd>
+      <dt>Game Title Reviews</dt>
+          <dd> Our writers are dedicated to provide a comprehensive review on each video game title released to the world. We strive to provide the pros, cons, and our opinions. </dd>
+      <dt>Discussion Fourms</dt>
+          <dd> Here our community is more than welcomed to discuss anything. We ask that you keep dicussions civil and be respectful to others. Foul language and defamation will <i>not</i> be tolerated.</dd>
+
+</dl>
+
+<video controls="controls" width="600">
+<source src="nintendoswitch.mp4" type="video/mp4">
+</video>
+
+</main>
+
+
+<footer><h6 style="color: blue;font-family:Arial, Tahoma, sans-serif; font-style: italic"> Copyright &copy;2024 Federico Vazquez's Video Game Review site. For more infromation, contact us at <a href ="mailto:federico.vazquez@go.tarleton.edu">federico.vazquez@go.tarleton.edu</a></h6>
+<h6 style="font-family:Arial, Tahoma, sans-serif; font-style: italic">
+<script type="text/javascript">
+document.write("This page was last modified on " + document.lastModified + ".");
+</script>
+</h6>
+
+</footer>
+</body>
+
+</html>
